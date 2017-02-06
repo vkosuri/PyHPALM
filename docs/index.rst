@@ -12,9 +12,3 @@ Welcome to py-hpalm's documentation!
  
    setup
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
