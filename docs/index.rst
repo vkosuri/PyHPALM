@@ -11,4 +11,5 @@ Welcome to py-hpalm's documentation!
 
  
    setup
+   entity/index
 
