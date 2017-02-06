@@ -91,7 +91,7 @@ class HPALM(object):
             raise ALMException("%s  %s failed to logging into HP ALM" %(resp.status_code, self.username))
         return resp.status_code
 
-    def __del__(self):
+    def logout(self):
         uri = self.base_url + '/qcbin/authentication-point/logout'
         resp = requests.get(uri, headers=self.headers)
         if resp.status_code == 200:
